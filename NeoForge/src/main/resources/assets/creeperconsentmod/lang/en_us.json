@@ -1,0 +1,32 @@
+{
+  "_comment": "Creeper Consent Mod — English (United States)",
+
+  "modmenu.nameTranslation.creeper-consent-mod": "Creeper Consent Mod",
+  "modmenu.descriptionTranslation.creeper-consent-mod": "Creepers now ask for permission before they explode. You decide.",
+
+  "creeper-consent-mod.screen.title": "Creeper Consent Required",
+
+  "creeper-consent-mod.screen.alien.line1": "ᛏ ᚫ ᛟ ᛉ ᛇ ᛈ",
+  "creeper-consent-mod.screen.alien.line2": "⟡ ◈ ⬢ ◇ ◆ ◉",
+  "creeper-consent-mod.screen.alien.line3": "ᚦ ᛚ ᛗ ᛝ ᛞ ᛟ",
+  "creeper-consent-mod.screen.alien.line4": "⊕ ⊗ ⊘ ⊛ ⊙ ⊚",
+
+  "creeper-consent-mod.screen.question": "Do you consent to this explosion?",
+  "creeper-consent-mod.screen.question.sub": "This action cannot be undone.",
+
+  "creeper-consent-mod.screen.button.allow": "ALLOW",
+  "creeper-consent-mod.screen.button.allow.tooltip": "Let the creeper explode normally",
+
+  "creeper-consent-mod.screen.button.deny": "DENY",
+  "creeper-consent-mod.screen.button.deny.tooltip": "Remove the creeper. No explosion.",
+
+  "creeper-consent-mod.message.explosion_allowed": "Explosion approved. Good luck.",
+  "creeper-consent-mod.message.creeper_deleted": "Creeper consent denied.",
+  "creeper-consent-mod.message.out_of_range": "You are no longer in blast range. Decision cancelled.",
+
+  "creeper-consent-mod.log.sent_screen": "Consent screen sent to %s for creeper #%d",
+  "creeper-consent-mod.log.allow": "%s allowed creeper #%d to explode.",
+  "creeper-consent-mod.log.deny": "%s denied creeper #%d — entity discarded.",
+  "creeper-consent-mod.log.invalid_entity": "Received consent response for unknown entity #%d from %s — ignoring.",
+  "creeper-consent-mod.log.out_of_range": "%s responded but is out of blast range of creeper #%d — ignoring."
+}
