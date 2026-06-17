@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "creeperconsentmod",
+	"version": "${version}",
+	"name": "Creeper Consent",
+	"description": "Creepers politely ask for consent before going ᛒᛟᛟᛗ!",
+	"authors": [
+		"GᚨMEᚲH007!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/creepers-consent",
+		"sources": "https://github.com/GameMech007-git/Creeper-Consent",
+		"issues": "https://github.com/GameMech007-git/Creeper-Consent/issues"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/creeperconsentmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.anantaya.creeperconsent.CreeperConsent"
+		],
+		"client": [
+			"com.anantaya.creeperconsent.CreeperConsentClient"
+		]
+	},
+	"mixins": [
+		"creeperconsentmod.mixins.json",
+		{
+			"config": "creeperconsentmod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
